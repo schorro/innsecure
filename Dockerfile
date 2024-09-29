@@ -1,4 +1,4 @@
-FROM golang:rc-stretch
+FROM golang:bookworm
 
 COPY ./ /src
 WORKDIR /src
